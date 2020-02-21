@@ -1,0 +1,85 @@
+.custom-block
+  .custom-block-title
+    font-weight 600
+    margin-bottom -0.4rem
+  &.tip, &.warning, &.danger
+    padding .1rem 1.5rem
+    border-left-width .5rem
+    border-left-style solid
+    margin 3rem 0
+  &.tip
+    background-color #f3f5f7
+    border-color #42b983
+  &.warning
+    background-color rgba(255,229,100,.3)
+    border-color darken(#ffe564, 35%)
+    color darken(#ffe564, 70%)
+    .custom-block-title
+      color darken(#ffe564, 50%)
+    a
+      color $textColor
+  &.danger
+    background-color #ffe6e6
+    border-color darken(red, 20%)
+    color darken(red, 70%)
+    .custom-block-title
+      color darken(red, 40%)
+    a
+      color $textColor
+  &.details
+    display block
+    position relative
+    border-radius 2px
+    margin 1.6em 0
+    padding 1.6em
+    background-color #eee
+    h4
+      margin-top 0
+    figure, p
+      &:last-child
+        margin-bottom 0
+        padding-bottom 0
+    summary
+      outline none
+      cursor pointer
+
+.steps
+  ol
+    list-style none
+    counter-reset my-awesome-counter
+    padding 0
+    li
+      counter-increment my-awesome-counter
+      margin-bottom: 0.5rem;
+      &:last-child
+        margin-bottom 0;
+      &:before 
+        content: counter(my-awesome-counter)
+        width 2em
+        // border 1px solid rgba(0,0,0,.1)
+        display inline-block
+        text-align center
+        vertical-align middle
+        line-height 2em
+        margin-right 20px
+        background-attachment fixed
+        background-color rgb(250, 250, 250)
+        background-image linear-gradient(#fafafa, #eaeaea)
+      img 
+        margin: 2rem 0 1rem;
+
+.changelog
+  ul 
+    list-style circle
+  &__badge
+    font-size: 0.7em;
+    text-transform: uppercase;
+    border: 1px solid currentColor;
+    padding: 0 6px;
+    font-weight: 500;
+    &.new 
+      color: #4CAF50;
+    &.update 
+      color: #03a9f4;
+    &.fix 
+      color: #ff9800;
