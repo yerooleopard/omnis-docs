@@ -1,12 +1,16 @@
 .custom-block
   .custom-block-title
-    font-weight 600
+    font-weight 500
+    font-size 0.8rem
     margin-bottom -0.4rem
+    text-transform uppercase
   &.tip, &.warning, &.danger
     padding .1rem 1.5rem
-    border-left-width .5rem
+    border-left-width 2px
     border-left-style solid
     margin 3rem 0
+    box-shadow $boxShadow
+    border-radius 5px
   &.tip
     background-color #f3f5f7
     border-color #42b983
@@ -107,7 +111,11 @@
     padding: 0.3rem 1.5rem;
     background: rgba(0, 0, 0, 0.03);
     margin: 1rem 0;
+    border-radius 5px
+    box-shadow 0 10px 50px rgba(0,0,0,0.03), 0 1px 3px rgba(0,0,0,0.07);
 
     &__title:not(:empty)
       text-transform: uppercase;
       margin: 1rem 0;
+      font-weight 500
+      font-size 0.8rem

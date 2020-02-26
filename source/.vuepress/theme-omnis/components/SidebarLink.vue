@@ -122,7 +122,6 @@ a.sidebar-link
     font-weight 500
     color $accentColor
     border-left-color $accentColor
-    text-decoration underline
   .sidebar-group &
     padding-left 2rem
   .sidebar-sub-headers &
@@ -130,5 +129,9 @@ a.sidebar-link
     padding-bottom 0.25rem
     border-left none
     &.active
-      font-weight 500
+      font-weight 400
+      &:before
+        content: "▸"
+        margin-right: 0.3rem
+        color: #ccc
 </style>

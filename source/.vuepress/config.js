@@ -17,7 +17,7 @@ module.exports = (options, ctx) => {
       ],
       sidebar: {
           // '/api/': getApiSidebar(),
-          '/docs/': getGuideSidebar('General', 'Theme Features'),
+          '/docs/': getGuideSidebar('General', 'Theme Features', 'Page Creation'),
           // '/plugin/': getPluginSidebar('Plugin', 'Introduction', 'Official Plugins'),
           // '/theme/': getThemeSidebar('Theme', 'Introduction'),
       },
@@ -83,7 +83,7 @@ module.exports = (options, ctx) => {
   }
 }
 
-function getGuideSidebar (groupA, groupB) {
+function getGuideSidebar (groupA, groupB, groupC) {
     return [
       {
         title: groupA,
@@ -100,6 +100,13 @@ function getGuideSidebar (groupA, groupB) {
           'plugins',
           'options',
           'menus',
+        ]
+      },
+      {
+        title: groupC,
+        collapsable: true,
+        children: [
+          'page-creation',
         ]
       }
     ];

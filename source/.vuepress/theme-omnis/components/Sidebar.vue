@@ -33,6 +33,9 @@ export default {
     padding 0
     margin 0
     list-style-type none
+
+    &.sidebar-group-items
+      margin-bottom 1rem
   a
     display inline-block
   .nav-links
@@ -51,7 +54,7 @@ export default {
       line-height 1.7
       font-weight bold
     & > li:not(:first-child)
-      margin-top .75rem
+      margin-top 0
 
 @media (max-width: $MQMobile)
   .sidebar

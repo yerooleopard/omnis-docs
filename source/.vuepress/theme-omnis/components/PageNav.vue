@@ -3,15 +3,14 @@
     v-if="prev || next"
     class="page-nav"
   >
-    <p class="inner">
-      <span
+    <div class="inner">
+      <div
         v-if="prev"
         class="prev"
       >
-        ←
         <a
           v-if="prev.type === 'external'"
-          class="prev"
+          class="page-nav__button prev"
           :href="prev.path"
           target="_blank"
           rel="noopener noreferrer"
@@ -23,23 +22,25 @@
 
         <RouterLink
           v-else
-          class="prev"
+          class="page-nav__button prev"
           :to="prev.path"
         >
-          {{ prev.title || prev.path }}
+          <span>Prev</span>
+          « {{ prev.title || prev.path }}
         </RouterLink>
-      </span>
-      <span
+      </div>
+      <div
         v-else
         class="prev"
-      ></span>
+      ></div>
 
-      <span
+      <div
         v-if="next"
         class="next"
       >
         <a
           v-if="next.type === 'external'"
+          class="page-nav__button next"
           :href="next.path"
           target="_blank"
           rel="noopener noreferrer"
@@ -51,17 +52,18 @@
 
         <RouterLink
           v-else
+          class="page-nav__button next"
           :to="next.path"
         >
-          {{ next.title || next.path }}
+          <span>Next</span>
+          {{ next.title || next.path }} »
         </RouterLink>
-        →
-      </span>
-      <span
+      </div>
+      <div
         v-else
         class="next"
-      ></span>
-    </p>
+      ></div>
+    </div>
   </div>
 </template>
 
@@ -156,9 +158,6 @@ function flatten (items, res) {
 <style lang="stylus">
 .page-nav
   padding: 2rem 10vw
-  opacity: 0.5
-  background: #fafafa
-  border-top: 1px solid $borderColor
   @media (max-width: $MQNarrow)
     padding 2rem
   @media (max-width: $MQMobileNarrow)
@@ -166,4 +165,27 @@ function flatten (items, res) {
   .inner 
     display flex
     justify-content space-between
+  &__button
+    border: 1px solid $borderColor
+    border-radius 5px
+    box-shadow $boxShadow
+    display block
+    &.prev
+      padding 1rem 7rem 1rem 2rem
+      text-align left
+      a:before
+        content: "«"
+    &.next
+      padding 1rem 2rem 1rem 7rem
+      text-align right
+      a:after
+        content: "»"
+    span
+      display block
+      font-size 0.8rem
+      margin-bottom 0.1rem
+      opacity .8
+    &:hover
+      box-shadow none
+      opacity .8
 </style>
