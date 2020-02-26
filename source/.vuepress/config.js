@@ -17,7 +17,7 @@ module.exports = (options, ctx) => {
       ],
       sidebar: {
           // '/api/': getApiSidebar(),
-          '/docs/': getGuideSidebar('Table of Content', 'Installation'),
+          '/docs/': getGuideSidebar('General', 'Theme Features'),
           // '/plugin/': getPluginSidebar('Plugin', 'Introduction', 'Official Plugins'),
           // '/theme/': getThemeSidebar('Theme', 'Introduction'),
       },
@@ -62,6 +62,22 @@ module.exports = (options, ctx) => {
         before: badge => `<div class="changelog"><span class="changelog__badge ${badge}">${badge}</span>\n`,
         after: () => '</div>\n'
       }],
+      ['container', {
+        type: 'grid',
+        before: column => `<div class="grid columns-${column}">\n`,
+        after: () => '</div>\n'
+      }],
+      ['container', {
+        type: 'grid-col',
+        before: () => `<div class="grid__column">\n`,
+        after: () => '</div>\n'
+      }],
+      ['container', {
+        type: 'wrapper',
+        defaultTitle: '',
+        before: title => `<div class="wrapper"><div class="wrapper__title">${title}</div>\n`,
+        after: () => '</div>\n'
+      }],
       ['smooth-scroll', true]
     ],
   }
@@ -71,19 +87,20 @@ function getGuideSidebar (groupA, groupB) {
     return [
       {
         title: groupA,
-        collapsable: false,
+        collapsable: true,
         children: [
           '',
           'installation',
         ]
       },
-    //   {
-    //     title: groupB,
-    //     collapsable: false,
-    //     children: [
-    //       '/docs/installation',
-    //       '/docs/installation/one',
-    //     ]
-    //   }
+      {
+        title: groupB,
+        collapsable: true,
+        children: [
+          'plugins',
+          'options',
+          'menus',
+        ]
+      }
     ];
   }
