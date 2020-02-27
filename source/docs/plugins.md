@@ -9,14 +9,15 @@ Required plugin are must-have to fully use this theme.
 ### Omnis Core
 Main Omnis Theme plugin required to fully use all the theme features.
 
-Omnis Core plugin contains features like:  
-- [Theme Options](/docs/options/)
-- [Templates](#)
-- [Elements](#)
-- [Mega Menu](/docs/menus.html#mega-menu)
-- [Menu Items](/docs/menus.html#menu-items)
-- [Build-in Shortcodes](/docs/shortcodes.html#build-in)
-- [Image Optimization](#)
+::: wrapper Omnis Core plugin contains features like: 
+[Theme Options](/docs/options/)  
+[Templates](#)  
+[Elements](#)  
+[Mega Menu](/docs/menus.html#mega-menu)  
+[Menu Items](/docs/menus.html#menu-items)  
+[Build-in Shortcodes](/docs/shortcodes.html#build-in)  
+[Image Optimization](#)  
+:::
 
 ### Redux Framework
 Simple, truly extensible options framework for WordPress themes and plugins. Requires [Omnis Core](#omnis-core) plugin to work with theme.

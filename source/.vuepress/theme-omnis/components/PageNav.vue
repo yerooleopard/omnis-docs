@@ -170,6 +170,7 @@ function flatten (items, res) {
     border-radius 5px
     box-shadow $boxShadow
     display block
+    background #fff
     &.prev
       padding 1rem 7rem 1rem 2rem
       text-align left

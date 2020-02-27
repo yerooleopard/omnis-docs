@@ -1,12 +1,15 @@
 // Theme API.
+var configData = require('./configData.js');
+
 module.exports = (options, ctx) => {
   return {
     title: 'Omnis Theme Docs',
-    // description: 'Documentation for Omnis WordPress Theme',
+    description: 'Documentation for Omnis WordPress Theme',
     theme: '.vuepress/theme-omnis',
     base: '/omnis-docs/',
     dest: 'docs',
     themeConfig: {
+      algolia: configData.algolia,
       logo: '/images/logos/logo-dark.png',
       nav: [
           { text: 'Home', link: '/' },
@@ -16,10 +19,7 @@ module.exports = (options, ctx) => {
           { text: 'Buy Theme', link: 'https://themeforest.net/user/leopardthemes/portfolio' }
       ],
       sidebar: {
-          // '/api/': getApiSidebar(),
           '/docs/': getGuideSidebar('General', 'Theme Features', 'Page Creation'),
-          // '/plugin/': getPluginSidebar('Plugin', 'Introduction', 'Official Plugins'),
-          // '/theme/': getThemeSidebar('Theme', 'Introduction'),
       },
       displayAllHeaders: true, // Default: false
       activeHeaderLinks: false, // Default: true
