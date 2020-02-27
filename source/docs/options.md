@@ -1,5 +1,8 @@
 # Options
 
+###### Table of content
+[[toc]]
+
 ::: content-wide
 ## Global Options
 ::: grid auto
@@ -77,10 +80,10 @@
 
 ### Layout / General Settings
 ::: wrapper Body Styling
-- **Body Color** Color for body text content.
-- **Body Background Color** Color for body content background.
-- **Site Background Color Site** background color (under body)
-- **Body Typography** CSS Units available in sizes. E.g. 12px, 1.5em, -2pt. Default unit: px.
+- **Body Color** - Color for body text content.
+- **Body Background Color** - Color for body content background.
+- **Site Background Color Site** - background color (under body)
+- **Body Typography** - CSS Units available in sizes. E.g. 12px, 1.5em, -2pt. Default unit: px.
 ###### Anchors Styling
 - **Anchors Colors** - Color for content anchor links
 - **Anchors Font Weight** - Font Weight for content anchor links
@@ -107,6 +110,8 @@
 - **Buttons Default Settings** - Default buttons settings.
 - **Buttons Typography** - Font styling options for buttons (.btn classes)
 :::
+
+### Layout / Navigation Settings
 
 ::: content-wide
 ## Page Options

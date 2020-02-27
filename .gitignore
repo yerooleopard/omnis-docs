@@ -2,4 +2,3 @@ node_modules
 .vscode
 yarn.lock
 deploy.sh
-source/.vuepress/configData.js

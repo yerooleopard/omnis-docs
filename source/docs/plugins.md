@@ -1,9 +1,12 @@
 # Plugins
 List of plugins included or fully compatible with Omnis Theme.
 
+###### Table of content
+[[toc]]
+
 ## Required
 ::: warning NOTE
-Required plugin are must-have to fully use this theme.
+Required plugins are must-have to use all the features of this template.
 :::
 
 ### Omnis Core

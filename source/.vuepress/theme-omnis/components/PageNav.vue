@@ -157,14 +157,16 @@ function flatten (items, res) {
 
 <style lang="stylus">
 .page-nav
-  padding: 2rem 10vw
+  padding: 0 10vw 2rem
   @media (max-width: $MQNarrow)
     padding 2rem
   @media (max-width: $MQMobileNarrow)
     padding 1.5rem
   .inner 
     display flex
-    justify-content space-between
+    justify-content space-between    
+    padding-top 2rem
+    border-top 1px solid $borderColor
   &__button
     border: 1px solid $borderColor
     border-radius 5px
@@ -173,11 +175,15 @@ function flatten (items, res) {
     background #fff
     &.prev
       padding 1rem 7rem 1rem 2rem
+      @media (max-width: $MQNarrow)
+        padding 1rem 2rem
       text-align left
       a:before
         content: "«"
     &.next
       padding 1rem 2rem 1rem 7rem
+      @media (max-width: $MQNarrow)
+        padding 1rem 2rem
       text-align right
       a:after
         content: "»"

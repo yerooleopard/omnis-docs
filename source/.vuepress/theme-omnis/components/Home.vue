@@ -76,6 +76,7 @@ export default {
 
 .home
   padding $navbarHeight 0
+  padding-bottom 0
   margin 0px auto
   display block
 
@@ -122,6 +123,8 @@ export default {
       transition background-color .1s ease
       box-sizing border-box
       border-bottom 1px solid darken($accentColor, 10%)
+      border-radius 5px
+      box-shadow $boxShadow
       &:hover
         background-color darken(#fff, 20%)
   .features

@@ -1,5 +1,8 @@
 # Installation
-You can install Omnis Theme in three ways - With Envato [Market WordPress Plugin](#installation-with-envato-market-plugin), directly with [WordPress](#installation-in-wordpress) (easier and faster way) or via [FTP](#installation-via-ftp).
+There is few ways to install Omnis WordPress Theme - faster and most recommended way is with [Envato Market WordPress Plugin](#installation-with-envato-market-plugin). Another way is to directly with [WordPress](#installation-in-wordpress) or via [FTP](#installation-via-ftp).
+
+###### Table of content
+[[toc]]
 
 ## Installation with Envato Market Plugin
 ::: steps

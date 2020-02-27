@@ -8,6 +8,9 @@ module.exports = (options, ctx) => {
     theme: '.vuepress/theme-omnis',
     base: '/omnis-docs/',
     dest: 'docs',
+    head: [
+      ['link', { rel: 'icon', href: './images/logos/favicon_omnis.png' }]
+    ],
     themeConfig: {
       algolia: configData.algolia,
       logo: '/images/logos/logo-dark.png',

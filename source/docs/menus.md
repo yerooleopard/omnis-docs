@@ -1,7 +1,7 @@
----
-sidebarDepth: 1
----
 # Menus
+
+###### Table of content
+[[toc]]
 
 ## Mega Menu
 

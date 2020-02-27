@@ -1,12 +1,12 @@
 # General
 
-![Intro](/omnis-docs/images/intro.png)
-
-::: wrapper Welcome to Omnis WordPress Theme Docs.
+::: danger Welcome to Omnis WordPress Theme Docs.
 
 You will find here the all necessary information how to use this Theme.
 If you have any questions feel free to send a message via [this contact form](https://themeforest.net/user/LeopardThemes).
 :::
+
+![Intro](/omnis-docs/images/intro.png)
 
 ## Theme Requirements
 To run Omnis theme without any problems, we strongly recommend you to use always the latest available WordPress version (at least 5.0).  
