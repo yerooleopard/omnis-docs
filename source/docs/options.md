@@ -1,123 +1,116 @@
 # Options
 
 ###### Table of content
+
 [[toc]]
 
-::: content-wide
 ## Global Options
+
+Global Options affects styling settings on all pages and templates. They are **lowest** in Options hierarchy and can be overwiten by [Page](/docs/options.html#page-options) and [Templates](/docs/options.html#template-options) Options.  
+
+To find Global Options go to **Omnis → Theme Options** in Admin Panel. Make sure you have installed required plugins ([Omnis Core and Redux Framework](/docs/plugins.html#required))
+
+::: content-wide
 ::: grid auto
+
 ![Logo Settings](/omnis-docs/images/options/logo.jpg)
 *Logo Settings*
-[▼](#logo-settings)
 
 ![Layout Settings](/omnis-docs/images/options/layout.jpg)
 *Layout Settings*
-[▼](#layout-settings)
 
 ![Layout / General Settingsl](/omnis-docs/images/options/layout-general.jpg)
 *Layout / General Settings*
-[▼](#layout-settings)
 
 ![Layout / Navigation Settings](/omnis-docs/images/options/layout-navigation.jpg)
 *Layout / Navigation Settings*
-[▼](#layout-settings)
 
 ![Layout / Title Bar Settings](/omnis-docs/images/options/layout-title_bar.jpg)
 *Layout / Title Bar Settings*
-[▼](#layout-settings)
 
 ![Layout / Footer Settings](/omnis-docs/images/options/layout-footer.jpg)
 *Layout / Footer Settings*
-[▼](#layout-settings)
 
 ![Layout / Skin Adjust Settings](/omnis-docs/images/options/layout-skin_adjust.jpg)
 *Layout / Skin Adjust Settings*
-[▼](#layout-settings)
 
 ![Templates](/omnis-docs/images/options/templates.jpg)
 *Templates Settings*
-[▼](#layout-settings)
 
 ![Google API Key](/omnis-docs/images/options/google_api_key.jpg)
 *Google API Key Settings*
-[▼](#layout-settings)
+
 :::
 
-::: content-wide
----
-:::
-
-#### Logo Settings
-::: wrapper Main Logo
-- **Display Logo Area** - Enable/Disable area with logo title/image.  
-###### Logo
-- **Logo Images** - Main logo images  
-- **Logo Dimensions** - Width and Height for logo container in pixels.  
-- **Dark Variation of Logo Image (optional)** - Logo image for light backgrounds.  
-- **Light Variation of Logo Images (optional)** - Logo images for dark backgrounds.
-###### Sticky Logo (optional)
-- **Sticky Logo Image** - Sticky Logo Image (optional).  
-- **Sticky Logo Dimensions** - Width and Height for logo container. Default unit: px.  
-- **Dark Variation of Sticky Logo Image (optional)** - Sticky Logo image for light backgrounds.  
-- **Light Variation of Sticky Logo Images (optional)** - Sticky Logo images for dark backgrounds.
-:::
-
-#### Layout Settings
-::: wrapper Site Global Layout
-- **Navigation Layout** - Global site navigation layout.  
-- **Layout** - Theme layout.  
-- **Global Container Width** - Maximum container width for theme layout. Default unit: px.
-###### Top Content
-- **Above Navigation Content Elements** - Custom elements content. [Read more](#)  
-- **Under Navigation Content Elements** - Custom elements content. [Read more](#)
-###### Overlay Content
-- **Overlay Content Elements** - Custom elements content. [Read more](#)
-- **Overlay Content Elements Position**
-###### Usability
-- **Comments Area** - Comments area display settings for users.
-- **Back to Top Button** - Enable/Disable Back to Top button.
-:::
-
-### Layout / General Settings
-::: wrapper Body Styling
-- **Body Color** - Color for body text content.
-- **Body Background Color** - Color for body content background.
-- **Site Background Color Site** - background color (under body)
-- **Body Typography** - CSS Units available in sizes. E.g. 12px, 1.5em, -2pt. Default unit: px.
-###### Anchors Styling
-- **Anchors Colors** - Color for content anchor links
-- **Anchors Font Weight** - Font Weight for content anchor links
-###### Headings
-- **Headings Color** - Color for headings text.
-- **Headings Typography** - CSS Units available in sizes. E.g. 12px, 1.5em, -2pt. Default unit: px.
-- **H1** - sizes for heading H1
-- **H2** - sizes for heading H2
-- **H3** - sizes for heading H3
-- **H4** - sizes for heading H4
-- **H5** - sizes for heading H5
-- **H6** - sizes for heading H6, also: .h6-size class and small, label tags.
-- **Custom Size Classes** - Extra classes which you can use for typography fields.
-###### Misc Styling
-- **Input BG Color** - Default background color for inputs, selects and textareas.
-- **Border Color** - Default border color.
-###### Extra Classes
-- **Small Font Size Class** - Class .font-size-small custom sizes
-- **Widgets Font Size** - .widget class font size
-###### Content
-- **Content push for Transparent Navigation** - Enable/Disable content push for transparent navigation.
-- **Content Row Padding** - Default content row section padding.
-- **Columns Gap** - Default content row columns gap size.
-- **Buttons Default Settings** - Default buttons settings.
-- **Buttons Typography** - Font styling options for buttons (.btn classes)
-:::
-
-### Layout / Navigation Settings
-
-::: content-wide
 ## Page Options
+
+Page Options affect only pages where they are modified. They are **the highest** in Options hierarchy and overwrite [Global](/docs/options.html#global-options) and [Templates](/docs/options.html#template-options) Options.
+
+You can find them in *Sidebar* and under **Advanced Page Options** Panel in *Edit Page* mode.
+
+*Advanced Page Options* contains only most needed settings, but if you want more take a look under [Templates Options](/docs/options.html#template-options) which contain almost all global setting to overwrite and are reusable for other similar Pages.
+
+::: content-wide
+::: grid auto
+
+![Page / Side Settings](/omnis-docs/images/options/page_side.jpg)
+*Page / Side Settings*
+
+![Page / Advanced Page Options / Page Data](/omnis-docs/images/options/page_page-data.jpg)
+*Page / Advanced Page Options / Page Data*
+
+![Page / Advanced Page Options / Extra Content](/omnis-docs/images/options/page_extra-content.jpg)
+*Page / Advanced Page Options / Extra Content*
+
+![Page / Advanced Page Options / Title Bar](/omnis-docs/images/options/page_title-bar.jpg)
+*Page / Advanced Page Options / Title Bar*
+
+![Page / Advanced Page Options / Navigation](/omnis-docs/images/options/page_navigation.jpg)
+*Page / Advanced Page Options / Navigation*
+
+![Page / Advanced Page Options / Footer](/omnis-docs/images/options/page_footer.jpg)
+*Page / Advanced Page Options / Footer*
+
+![Page / Advanced Page Options / Content](/omnis-docs/images/options/page_content.jpg)
+*Page / Advanced Page Options / Content*
+
+![Page / Advanced Page Options / Layout](/omnis-docs/images/options/page_layout.jpg)
+*Page / Advanced Page Options / Layout*
+
 :::
 
 ## Template Options
-::: tip INFO
-[Click here to read more about **Templates**](#)
+
+Templates allow you to create reusable and easy modifiable pages with custom (different than Global) settings. Those settings are **higher** in options hierarchy than *Global* but **lower** than *Page Options*.
+
+The contain almost all Global Settings which you can overwrite.
+
+::: warning INFO
+[Click here to read more about **Templates**](/docs/templates/)
+:::
+
+::: content-wide
+::: grid auto
+
+![Templates / Layout](/omnis-docs/images/options/templates_layout.jpg)
+*Templates / Layout*
+
+![Templates / General](/omnis-docs/images/options/templates_general.jpg)
+*Templates / General*
+
+![Templates / Navigation](/omnis-docs/images/options/templates_navigation.jpg)
+*Templates / Navigation*
+
+![Templates / Title Bar](/omnis-docs/images/options/templates_title-bar.jpg)
+*Templates / Title Bar*
+
+![Templates / Footer](/omnis-docs/images/options/templates_footer.jpg)
+*Templates / Footer*
+
+![Templates / Skin Adjust](/omnis-docs/images/options/templates_skin-adjust.jpg)
+*Templates / Skin Adjust*
+
+![Templates / Custom CSS](/omnis-docs/images/options/templates_custom-css.jpg)
+*Templates / Custom CSS*
+
 :::

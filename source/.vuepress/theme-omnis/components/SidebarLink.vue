@@ -119,7 +119,7 @@ a.sidebar-link
   &:hover
     color $accentColor
   &.active
-    font-weight 500
+    font-weight 400
     color $accentColor
     border-left-color $accentColor
   .sidebar-group &

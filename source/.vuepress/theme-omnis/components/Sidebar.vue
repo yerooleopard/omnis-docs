@@ -48,7 +48,8 @@ export default {
       font-size 1.1em
       padding 0.5rem 0 0.5rem 1.5rem
   & > .sidebar-links
-    padding 1rem + 3.6rem - 0.35rem 1rem 0 0
+    padding 1rem 0
+    margin 3rem 1rem 0 0
     & > li > a.sidebar-link
       font-size 1.1em
       line-height 1.7
