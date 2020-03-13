@@ -22,7 +22,7 @@ module.exports = (options, ctx) => {
           { text: 'Buy Theme', link: 'https://themeforest.net/user/leopardthemes/portfolio' }
       ],
       sidebar: {
-          '/docs/': getGuideSidebar('General', 'Theme Features', 'Page Creation'),
+          '/docs/': getGuideSidebar('General', 'Theme Features', 'Page Creation', 'Omnis Plugins'),
       },
       displayAllHeaders: true, // Default: false
       activeHeaderLinks: false, // Default: true
@@ -86,7 +86,7 @@ module.exports = (options, ctx) => {
   }
 }
 
-function getGuideSidebar (groupA, groupB, groupC) {
+function getGuideSidebar (groupA, groupB, groupC, groupD) {
     return [
       {
         title: groupA,
@@ -103,13 +103,27 @@ function getGuideSidebar (groupA, groupB, groupC) {
           'plugins',
           'options',
           'menus',
+          'image-optimization',
         ]
       },
       {
         title: groupC,
         collapsable: true,
         children: [
-          'page-creation',
+          'page-builder',
+          'loop-shortcode',
+          'templates',
+          'elements',
+        ]
+      },
+      {
+        title: groupD,
+        collapsable: true,
+        children: [
+          'omnis-core',
+          'omnis-studio',
+          'omnis-one-click-demo-importer',
+          'fonto',
         ]
       }
     ];

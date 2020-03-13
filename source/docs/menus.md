@@ -5,6 +5,7 @@ With Omnis Theme comes some custom Menus improvements, like [Mega Menus](#mega-m
 It requires [Omnis Core Plugin](/docs/plugins.html#required) Installed and activated.
 
 ###### Table of content
+
 [[toc]]
 
 ## Mega Menu
@@ -41,7 +42,7 @@ All Custom Items you can find in **Appearance → Menus** under **Omnis Items** 
 ::: wrapper Search Item
 Add this item to Menu to enable [Search Box](/docs/search/) on your website.
 
-[Read more about Search Box](/docs/search/)
+[Read more about Search Box](#search-box)
 :::
 
 ::: wrapper Overlay Content Dots Item
@@ -97,3 +98,20 @@ To create secondary menu go to **Appearance → Menus**. Create a new menu and a
 
 ![Secondary Menu](/omnis-docs/images/menus/secondary-menu.jpg)
 *Secondary Menu Example*
+
+## Search Box
+
+To enable **Search Box** go to **Appearance → Menus** and add [Search Menu Item](#menu-items) to *Menu Structure*.
+
+![Search Menu Item](/omnis-docs/images/menus/menus_search.jpg)
+*Search Menu Item to Enable Search Box*
+
+![Search Menu item in Navigation ](/omnis-docs/images/menus/menus_item-search.jpg)
+*Search Menu Item in Navigation*
+
+![Search Box](/omnis-docs/images/menus/search-box.jpg)
+*Search Box with Ajax search*
+
+::: tip Search Ajax
+You can enable or disable *Instant/Ajax Search results* in [Theme Global Options](/docs/options.html#global-options) under **Layout → Navigation** panel.
+:::

@@ -18,12 +18,12 @@ Main Omnis Theme plugin required to fully use all the theme features.
 
 ::: wrapper Omnis Core plugin contains features like:  
 [Theme Options](/docs/options/)  
-[Templates](#)  
-[Elements](#)  
+[Templates](/docs/templates/)  
+[Elements](/docs/elements/)  
 [Mega Menu](/docs/menus.html#mega-menu)  
 [Menu Items](/docs/menus.html#menu-items)  
-[Build-in Shortcodes](/docs/shortcodes.html#build-in)  
-[Image Optimization](#)  
+[Build-in Shortcodes](/docs/omnis-core.html#build-in-shortcodes)  
+[Image Optimization](/docs/image-optimization/)  
 :::
 
 ### Redux Framework
