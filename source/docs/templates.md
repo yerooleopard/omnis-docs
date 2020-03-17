@@ -6,7 +6,7 @@
 
 ## How to use Templates
 
-### Placing basic elements
+### Dynamic Content
 
 ### Placing Content
 

@@ -4,7 +4,7 @@
 
 [[toc]]
 
-### How it works
+## How it works
 
 ## Adding Logo Image
 

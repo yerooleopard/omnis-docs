@@ -104,6 +104,7 @@ function getGuideSidebar (groupA, groupB, groupC, groupD) {
           'options',
           'menus',
           'image-optimization',
+          'text-skins',
         ]
       },
       {

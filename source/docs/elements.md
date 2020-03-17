@@ -11,3 +11,5 @@
 ## Title Bar with Elements
 
 ## Footer with Elements
+
+### Inject Elements in Text Editor (Tinymce)
