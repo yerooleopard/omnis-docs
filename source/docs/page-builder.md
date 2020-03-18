@@ -45,7 +45,7 @@ Omnis Theme comes with a *custom made*, *specially tailored and styled* WPBakery
 ![vc_row](/omnis-docs/images/page-builder/vc-row.jpg)
 :::
 
-###### Row Settings
+##### Row Settings
 
 ::: grid 3
 
@@ -62,16 +62,15 @@ Omnis Theme comes with a *custom made*, *specially tailored and styled* WPBakery
 *Row CSS Settings*
 
 ![Row Settings](/omnis-docs/images/page-builder/vc-row_settings-responsive.jpg)
-*Row Responsiveness Settings*
+*Row Responsive Settings*
 
 :::
 
 #### Columns - [vc_column]
 
-Each Row Shortcode is build with **columns**. Grid columns are created by specifying the number of **12** available columns you wish to span. For example, three equal columns would use three *span-4*.
+Each Row Shortcode is built with **columns**. Grid columns are created by specifying the number of **12** available columns you wish to span. For example, three equal columns would use three *span-4*.
 
-
-###### Columns Settings
+##### Columns Settings
 
 ::: grid 3
 
@@ -85,7 +84,7 @@ Each Row Shortcode is build with **columns**. Grid columns are created by specif
 *Column CSS Settings*
 
 ![Column Settings](/omnis-docs/images/page-builder/vc-column_settings-responsive.jpg)
-*Column Responsiveness Settings*
+*Column Responsive Settings*
 
 ![Column Settings](/omnis-docs/images/page-builder/vc-column_settings-animations.jpg)
 *Column Animations Settings*
@@ -115,7 +114,7 @@ You can force specific behavior for selected rows or group them with [Section Sh
 
 ### Section shortcode - [vc_section]
 
-Section shortcode is a shortcode which can wrap Rows into groups. It allows to set options like background (color or/and image) and skin for all Rows at once, but still each individual Row inside section still can have separate background set.
+Section shortcode is a shortcode that can wrap *Rows* into groups. It allows to set options like background (color or/and image) and skin for all Rows at once, but still, each *Row* inside section can have a separate background.
  
 ::: wrapper Section Structure with Two Rows Example
 
@@ -128,7 +127,7 @@ Section shortcode is a shortcode which can wrap Rows into groups. It allows to s
 ![vc_section](/omnis-docs/images/page-builder/vc-section.jpg)
 :::
 
-###### Section Settings
+##### Section Settings
 
 ::: grid 3
 
@@ -145,13 +144,13 @@ Section shortcode is a shortcode which can wrap Rows into groups. It allows to s
 *Section CSS Settings*
 
 ![Section Settings](/omnis-docs/images/page-builder/vc-section_settings-responsive.jpg)
-*Section Responsiveness Settings*
+*Section Responsive Settings*
 
 :::
 
 #### Section Animations
 
-Section shortcode comes with unique feature like Section Scroll Animations - it is great way to catch your website visitor attention.
+Section shortcode comes with unique feature like Section Scroll Animations - it is a great way to catch your website visitors attention.
 
 ###### Section Scroll Animation Examples
 
@@ -165,7 +164,7 @@ Section shortcode comes with unique feature like Section Scroll Animations - it 
 - [Pinned Title Bar](https://demo.loprd.pl/omnis/dp/give-us-any-rule-well-break-it/?omnis_template=604) 
 - [Pinned Title Bar (100% Height)](https://demo.loprd.pl/omnis/pages/page-about-grid/) 
 
-### Fancy Heading/Text shortcode - [vc_custom_heading]
+### Fancy Heading/Text shortcode - [vc_custom\_heading]
 
 Fancy Heading/Text shortcode is a great shortcode for creating all fancy texts or/and headers.
 
@@ -180,7 +179,7 @@ Fancy Heading/Text shortcode is a great shortcode for creating all fancy texts o
 ![vc_row](/omnis-docs/images/page-builder/vc-heading.jpg)
 :::
 
-###### Fancy Heading/Text Settings
+##### Fancy Heading/Text Settings
 
 ::: grid 3
 
@@ -200,7 +199,7 @@ Fancy Heading/Text shortcode is a great shortcode for creating all fancy texts o
 
 #### Dynamic text / Built-in Shortcodes
 
-Fancy Heading/Text Shortcode is a great tool to use Dynamic Content Shortocodes like `[omnis_title]` or `[omnis_breadcrumbs]`.
+Fancy Heading/Text Shortcode is a great tool to use Dynamic Content Shortcodes like `[omnis_title]` or `[omnis_breadcrumbs]`.
 
 ::: tip Info
 [Click here to Read More about Dynamic Content Shortcodes](/docs/omnis-core.html#build-in-shortcodes)
@@ -221,8 +220,7 @@ Carousel Shortcode is a fantastic shortcode to *easily* convert your content int
 ![vc_row](/omnis-docs/images/page-builder/loprd-carousel-column.jpg)
 :::
 
-
-###### Carousel Settings
+##### Carousel Settings
 
 ::: grid 3
 
@@ -233,7 +231,7 @@ Carousel Shortcode is a fantastic shortcode to *easily* convert your content int
 *Carousel Styling Settings*
 
 ![Carousel Settings](/omnis-docs/images/page-builder/loprd-carousel_settings-responsive.jpg)
-*Carousel Responsiveness Settings*
+*Carousel Responsive Settings*
 
 ![Carousel Settings](/omnis-docs/images/page-builder/loprd-carousel_settings-animations.jpg)
 *Carousel Animations Settings*
@@ -243,9 +241,9 @@ Carousel Shortcode is a fantastic shortcode to *easily* convert your content int
 
 #### Carousel Column - [loprd_carousel_columns]
 
-Carousel Shortcode is build with **Carousel Column** Shortcodes which are coverted into **Slides**. There is no limit to columns inside shortcode.
+Carousel Shortcode is build with **Carousel Column** Shortcodes which are converted into **Slides**. There is no limit to columns inside the shortcode.
 
-###### Carousel Column Settings
+##### Carousel Column Settings
 
 ::: grid 3
 
@@ -255,7 +253,25 @@ Carousel Shortcode is build with **Carousel Column** Shortcodes which are covert
 ![Carousel Settings](/omnis-docs/images/page-builder/loprd-carousel-column_settings-styling.jpg)
 *Carousel Column Styling Settings*
 
+![Column Settings](/omnis-docs/images/page-builder/vc-column_settings-css.jpg)
+*Carousel Column CSS Settings*
+
+![Carousel Settings](/omnis-docs/images/page-builder/loprd-carousel_settings-responsive.jpg)
+*Carousel Column Responsive Settings*
+
+![Carousel Settings](/omnis-docs/images/page-builder/loprd-carousel_settings-animations.jpg)
+*Carousel Column Animations Settings*
+
 :::
+
+###### Carousel Examples
+
+- [Services Carousel](https://demo.loprd.pl/omnis/pages/page-services-creative/)
+- [Demo Images Carousel](https://demo.loprd.pl/omnis/#demos)
+- [Team Bio Carousel](https://demo.loprd.pl/omnis/home/home-agency/)
+- [App Images Carousel with Titles](https://demo.loprd.pl/omnis/home/home-mobile-app-landing/)
+- [Restaurant Description - Centered Looped Carousel](https://demo.loprd.pl/omnis/home/home-restaurant/)
+- [Restaurant Menu - Nested Carousel](https://demo.loprd.pl/omnis/home/home-restaurant/)
 
 ### Loop Shortcode - [loprd_loop]
 

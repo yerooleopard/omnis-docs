@@ -102,6 +102,7 @@ function getGuideSidebar (groupA, groupB, groupC, groupD) {
         children: [
           'plugins',
           'options',
+          'navigation',
           'menus',
           'image-optimization',
           'text-skins',

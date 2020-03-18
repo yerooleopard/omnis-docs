@@ -4,4 +4,4 @@
 
 [[toc]]
 
-## Build-in Shortcodes
+## Built-in Shortcodes
