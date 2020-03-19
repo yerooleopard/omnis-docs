@@ -39,7 +39,7 @@ Fully customized for Omnis Theme drag and drop page builder. Take full control o
 ::: tip INCLUDED
 *Included with the theme for free.
 
-[Read more about WPBakery Page Builder](https://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431?ref=LeopardThemes)
+[Read more about WPBakery Page Builder](/docs/wpbakery-page-builder/)
 :::
 
 - [Read more about Page Building](#)  
@@ -100,7 +100,7 @@ Slider Revolution - Premium responsive slider.
 ::: tip INCLUDED
 *Included with the theme for free.
 
-[Read more about Slider Revolution](https://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380?ref=LeopardThemes)
+[Read more about Slider Revolution](/docs/revolution-slider/)
 :::
 
 ### WooCommerce
@@ -110,7 +110,7 @@ An eCommerce toolkit that helps you sell anything. Beautifully.
 ::: tip FULLY COMPATIBLE
 Omnis Theme is fully integrated with WooCommerce Plugin
 
-- [Read more about WooCommerce](https://woocommerce.com/)
+- [Read more about WooCommerce](/docs/woocommerce/)
 :::
 
 - [Read more about Templates Building for WooCommerce](#)

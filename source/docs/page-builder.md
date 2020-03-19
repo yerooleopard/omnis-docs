@@ -1,6 +1,10 @@
 # Page Builder
 
-Omnis Theme is compatible and fully integrated with [WPBakery Page Builder](/docs/plugins.html#wpbakery-page-builder-64) which is the most popular WordPress drag and drop page builder. It allows you to build any layout you can imagine with no programming knowledge.
+Omnis Theme is compatible and fully integrated with [WPBakery Page Builder](/docs/wpbakery-page-builder/) which is the most popular WordPress drag and drop page builder. It allows you to build any layout you can imagine with no programming knowledge.
+
+::: tip WPBakery Page Builder Plugin
+[Read more about WPBakery Page Builder](/docs/wpbakery-page-builder/)
+:::
 
 With theme comes many unique customized shortcodes like [Loop](/docs/loops-creation/) or [Carousel](#carousel-shortcode).
 
@@ -266,15 +270,24 @@ Carousel Shortcode is build with **Carousel Column** Shortcodes which are conver
 
 ###### Carousel Examples
 
-- [Services Carousel](https://demo.loprd.pl/omnis/pages/page-services-creative/)
+- [Services Carousel](https://demo.loprd.pl/omnis/pages/page-services-creative/#services)
 - [Demo Images Carousel](https://demo.loprd.pl/omnis/#demos)
-- [Team Bio Carousel](https://demo.loprd.pl/omnis/home/home-agency/)
-- [App Images Carousel with Titles](https://demo.loprd.pl/omnis/home/home-mobile-app-landing/)
-- [Restaurant Description - Centered Looped Carousel](https://demo.loprd.pl/omnis/home/home-restaurant/)
-- [Restaurant Menu - Nested Carousel](https://demo.loprd.pl/omnis/home/home-restaurant/)
+- [Team Bio Carousel](https://demo.loprd.pl/omnis/home/home-agency/#authors-bio)
+- [Testimonials Centered](https://demo.loprd.pl/omnis/home/page-classic-agency-studio/#testimonials)
+- [App Images Carousel with Titles](https://demo.loprd.pl/omnis/home/home-mobile-app-landing/#app)
+- [Restaurant Description - Centered Looped Carousel](https://demo.loprd.pl/omnis/home/home-restaurant/#description)
+- [Restaurant Menu - Nested Carousel](https://demo.loprd.pl/omnis/home/home-restaurant/#menu)
 
 ### Loop Shortcode - [loprd_loop]
 
 ::: warning INFO
 [Click here to read more about Loop Shortcode](/docs/loop-shortcode/)
+:::
+
+## Revolution Slider
+
+Also, includes Revoltion Slider - powerful visual editor, with you can create modern sliders and dynamic page elements in no time, and with no coding experience required.
+
+::: tip Revolution Slider Plugin
+[Read more about Revolution Slider](/docs/revolution-slider/)
 :::

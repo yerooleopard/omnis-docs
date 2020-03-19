@@ -125,7 +125,10 @@ function getGuideSidebar (groupA, groupB, groupC, groupD) {
           'omnis-core',
           'omnis-studio',
           'omnis-one-click-demo-importer',
+          'wpbakery-page-builder',
+          'revolution-slider',
           'fonto',
+          'woocommerce',
         ]
       }
     ];
