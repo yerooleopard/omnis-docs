@@ -61,6 +61,11 @@ module.exports = (options, ctx) => {
         after: () => '</div>\n'
       }],
       ['container', {
+        type: 'step',
+        before: number => `<div class="step" data-step="${number}">\n`,
+        after: () => '</div>\n'
+      }],
+      ['container', {
         type: 'changelog',
         before: badge => `<div class="changelog"><span class="changelog__badge ${badge}">${badge}</span>\n`,
         after: () => '</div>\n'

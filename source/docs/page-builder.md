@@ -201,12 +201,12 @@ Fancy Heading/Text shortcode is a great shortcode for creating all fancy texts o
 
 :::
 
-#### Dynamic text / Built-in Shortcodes
+#### Dynamic text / Core Data Shortcodes
 
 Fancy Heading/Text Shortcode is a great tool to use Dynamic Content Shortcodes like `[omnis_title]` or `[omnis_breadcrumbs]`.
 
 ::: tip Info
-[Click here to Read More about Dynamic Content Shortcodes](/docs/omnis-core.html#build-in-shortcodes)
+[Click here to Read More about Core Data Shortcodes](/docs/omnis-core.html#dynamic-data-shortcodes)
 :::
 
 ### Carousel Shortcode - [loprd_carousel]
