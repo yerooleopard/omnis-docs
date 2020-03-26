@@ -46,15 +46,15 @@ Add this item to Menu to enable [Search Box](/docs/search/) on your website.
 :::
 
 ::: wrapper Overlay Content Dots Item
-Add this item to Menu to enable [Overlay Content](/docs/overlay-content/). This item **display three dots** icon instead of text.
+Add this item to Menu to enable [Overlay Content](/docs/elements.html#overlay-content). This item **display three dots** icon instead of text.
 
-[Read more about Overlay Content](/docs/overlay-content/)
+[Read more about Overlay Content](/docs/elements.html#overlay-content)
 :::
 
 ::: wrapper Overlay Content Item
-Add this item to Menu to enable [Overlay Content](/docs/overlay-content/).
+Add this item to Menu to enable [Overlay Content](/docs/elements.html#overlay-content).
 
-[Read more about Overlay Content](/docs/overlay-content/)
+[Read more about Overlay Content](/docs/elements.html#overlay-content)
 :::
 
 ::: wrapper Title Item
