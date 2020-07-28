@@ -12,29 +12,19 @@ actionLinkBuy: https://themeforest.net/user/leopardthemes/portfolio
 ###### Theme Changelog
 ---
 
-## v1.0.1
-
-released date: **26/02/2020**
-::: changelog fix
-
-- Fixed Bug
-
-:::
 
 ## v1.0
 
-released date: **19/02/2020**
+<!-- released date: **19/02/2020** -->
 
 ::: changelog new
 
-- New Feature
-- Another new feature
+- Initial Release
 
 :::
 ::: changelog update
 
-- Updated Features
-- Page Builder performance fixed
+- Initial Release
 
 :::
 ::: changelog fix

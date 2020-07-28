@@ -54,6 +54,8 @@ Make sure you have installed and activated [Omnis Core Plugin](/docs/plugins.htm
 
 To create a new Template go to **Omnis → Templates** and click **Add New Template** button.
 
+Omnis Theme allows you to create and modify *Templates* in **Backend** and **Frontend** Editors.
+
 For example, we decided to create a new **Post Template** with **Large Centered Title above Wide Thumbnail** and **Content Split into wider Article Text on the right** and **post data on Left**. 
 Additionally, there will be **Slider Loop with 6 Related Items** and **centered comments section** with a custom background.
 
@@ -95,6 +97,14 @@ For our `Post - Centered Thumbnail, Splited Content` template we overwrite some 
 With dynamic content, you can create custom layouts for your templates, which means you can **arrange** your content the way you want.
 
 Dynamic Content is made with **special shortcodes**.
+
+
+::: tip Dynamic Data Shortocdes
+
+[Click here to learn more about Dynamic Data Shortcodes.](/docs/omnis-core.html#dynamic-data-shortcodes)  
+[Click here to learn more about Templated Dynamic Shortcodes.](/docs/omnis-core.html#templates-dynamic-data)
+
+:::
 
 ### Post Meta (Title/Subtitle/Meta etc.)
 
@@ -233,6 +243,9 @@ For our example, we will create Comments Area with the same column width as Titl
 ```
 
 :::
+
+![Template in Front-End Edior](/omnis-docs/images/templates/template_front-end.jpg)
+*Example of Template in Front-End Edior*
 
 ### More Dynamic Data
 

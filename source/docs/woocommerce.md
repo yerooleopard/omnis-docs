@@ -1,5 +1,7 @@
 # WooCommerce
 
-### Docs
+![WooCommerce](/omnis-docs/images/plugins/woo.png)
 
-### Useful Links
+WooCommerce is a flexible, open-source eCommerce platform. Built on WordPress.
+
+[Official Website](https://woocommerce.com)

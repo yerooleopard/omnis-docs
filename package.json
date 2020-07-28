@@ -9,5 +9,7 @@
     "vuepress-plugin-medium-zoom": "^1.1.8",
     "vuepress-plugin-serve": "^2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@vuepress/core": "^1.5.2"
+  }
 }

@@ -14,18 +14,21 @@ With theme comes many unique customized shortcodes like [Loop](/docs/loops-creat
 
 ## How to use Page Builder
 
-To enable Page Builder go to **Page Edit** (also work for Posts, Portfolio, Product Pages and more) and click **WPBakery Page Builder** Button (Gutenberg Mode), or **Backend Editor** Button (Classic Mode).
+To enable Page Builder go to **Page Edit** (also work for Posts, Portfolio, Product Pages and more) and click **WPBakery Page Builder** Button (Gutenberg Mode) **Backend Editor** Button or **Frontend Editor**.
 
 ::: grid auto
 ![Page Builder in Gutenberg Mode](/omnis-docs/images/page-builder/page-builder_enable-gutenberg.jpg)
-*Page Builder Button in Gutenberg Mode*
+*How to enable Page Builder in Gutherberg Mode*
 
 ![Page Builder in Classic Mode](/omnis-docs/images/page-builder/page-builder_enable-classic.jpg)
-*Page Builder Button in Classic Mode*
+*How to enable Page Builder in Classic Mode*
 :::
 
 ![Page Builder in Classic Mode](/omnis-docs/images/page-builder/page-builder_editor.jpg)
-*Page Builder Editor*
+*Page Builder Backend Editor*
+
+![Page Builder in Classic Mode](/omnis-docs/images/page-builder/page-builder_frontend-editor.jpg)
+*Page Builder Frontend Editor*
 
 ## Shortcodes
 
