@@ -10,6 +10,6 @@
     "vuepress-plugin-serve": "^2.0.0"
   },
   "dependencies": {
-    "@vuepress/core": "^1.5.2"
+    "@vuepress/core": "^1.7.1"
   }
 }

@@ -12,23 +12,15 @@ actionLinkBuy: https://themeforest.net/user/leopardthemes/portfolio
 ###### Theme Changelog
 ---
 
+## **v1.0**
 
-## v1.0
-
-<!-- released date: **19/02/2020** -->
-
-::: changelog new
-
+``` ini
+# NEW
 - Initial Release
 
-:::
-::: changelog update
-
+# UPDATE
 - Initial Release
 
-:::
-::: changelog fix
-
+# FIX
 - Initial Release
-
-:::
+```
