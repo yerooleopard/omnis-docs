@@ -102,7 +102,7 @@ Display categories list for a current post/page. Can be used as a meta data for 
 ::: wrapper [omnis_cats]
 
 ``` php
-[omnis_tags btn="true" separator=", "  class="" before="" after=""]
+[omnis_tags button="true" separator=", " before="" after="" btn="" class=""]
 ```
 
 ---
@@ -111,11 +111,12 @@ Display tag list for a current post/page. Can be used as a meta data for [Loop S
 
 ###### Options
 
-- *btn* - true/false - display each tag as individual button. Default: true.
+- *button* - true/false - display each tag as individual button. Default: true.
 - *separator* - separator between tags (doesn't work with "btn" option enabled). E.g. "Tag, Another Tag". Default: ", ".
-- *class* - Adds a custom class for this shortcode.
 - *before* - Display custom text before shortcode. Default: empty.
 - *after* - Display custom text after shortcode. Default: empty.
+- *btn* - share default buttons type E.g. color:btn-light,type:btn-outlined,size:btn-sm *Available properties: color:(btn-light,btn-dark), size:(btn-xs,btn-sm,btn-md,btn-lg), type:(btn-outlined,btn-link), width:block, extra:YOUR_CUSTOM_CLASS*.  Default: "";
+- *class* - Adds a custom class for this shortcode.
 
 :::
 
