@@ -115,7 +115,7 @@ Display tag list for a current post/page. Can be used as a meta data for [Loop S
 - *separator* - separator between tags (doesn't work with "btn" option enabled). E.g. "Tag, Another Tag". Default: ", ".
 - *before* - Display custom text before shortcode. Default: empty.
 - *after* - Display custom text after shortcode. Default: empty.
-- *btn* - share default buttons type E.g. color:btn-light,type:btn-outlined,size:btn-sm *Available properties: color:(btn-light,btn-dark), size:(btn-xs,btn-sm,btn-md,btn-lg), type:(btn-outlined,btn-link), width:btn-block, extra:YOUR_CUSTOM_CLASS*.  Default: "";
+- *btn* - tags default buttons type E.g. color:btn-light,type:btn-outlined,size:btn-sm *Available properties: color:(btn-light,btn-dark), size:(btn-xs,btn-sm,btn-md,btn-lg), type:(btn-outlined,btn-link), width:btn-block, extra:YOUR_CUSTOM_CLASS*.  Default: "";
 - *class* - Adds a custom class for this shortcode.
 
 :::
@@ -369,7 +369,7 @@ Display breadcrumbs for the current page.
 
 ---
 
-Display the most popular social share buttons. Can be used as a meta data for [Loop Shortcode](/docs/loop-shortcode.html).
+Display the most popular social share buttons. Can be used as an meta data for [Loop Shortcode](/docs/loop-shortcode.html).
 
 ###### Options
 
@@ -378,7 +378,7 @@ Display the most popular social share buttons. Can be used as a meta data for [L
 - *list_type* - icons/text - Way the share buttons will be displayed - as Icons or as Text (E.g. Facebook, Twitter). Default: "icons";
 - *list_direction* - horizontal/vertical - Direction of a share list buttons. Default: "horizontal";
 - *list_colors* - true/false - If set to true button will be displayed with social brand color. Default: "true";
-- *display* - lisf of socials to display or/and rearrange order (separated with comma. E.g. facebook,twitter). default: '' = display all. List of socials to display: **facebook, twitter, pinterest, reddit, tumblr, flipboard, vk, copy-to-clipboard, email**
+- *display* - lisf of socials to display or/and rearrange order (separated with comma. E.g. facebook,twitter). default: '' = display all. List of socials to display: **facebook, twitter, pinterest, reddit, tumblr, flipboard, pocket, linkedin, vk, copy-to-clipboard, email**
 - *btn* - share default buttons type E.g. color:btn-light,type:btn-outlined,size:btn-sm *Available properties: color:(btn-light,btn-dark), size:(btn-xs,btn-sm,btn-md,btn-lg), type:(btn-outlined,btn-link), width:btn-block, extra:YOUR_CUSTOM_CLASS*.  Default: "";
 - *class* - The class(es) applied to the wrapper element. Default: "";
 
