@@ -144,7 +144,7 @@ Display "created at" date for a current page/post. Can be used as a meta data fo
 ::: wrapper [omnis_comments]
 
 ``` php
-[omnis_comments class="" before="Comments: " after=""]
+[omnis_comments class="" before="" after=""]
 ```
 
 ---
@@ -154,8 +154,8 @@ Display comments number for a current page/post. Can be used as a meta data for 
 ###### Options
 
 - *class* - Adds a custom class for this shortcode.
-- *before* - Display custom text before shortcode. Default: "Comments: ".
-- *after* - Display custom text after shortcode. Default: empty.
+- *before* - Display custom text before shortcode - if empty display "Comments: ". Default: "". 
+- *after* - Display custom text after shortcode. Default: "".
 
 :::
 
