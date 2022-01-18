@@ -6,7 +6,7 @@ You will find here the all necessary information on how to use this Theme.
 If you have any questions feel free to send a message via [this contact form](https://themeforest.net/user/LeopardThemes).
 :::
 
-![Intro](/omnis-docs/images/intro.png)
+![Intro](/omnis-docs/images/start.png)
 
 ## Theme Requirements
 

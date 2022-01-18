@@ -2,3 +2,5 @@ node_modules
 .vscode
 yarn.lock
 deploy.sh
+npm-debug.log
+package-lock.json

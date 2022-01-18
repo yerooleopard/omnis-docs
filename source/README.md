@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: ./images/logos/logo-large-light.png
-bgImage: './images/demos_bg.png'
+heroImage: ./images/logos/omnis_logo_light@3x.png
+bgImage: './images/demos_cover_image_1gap.png'
 heroText: Omnis Theme Docs
 tagline: Documentation for Omnis WordPress Theme
 actionText: Read Docs

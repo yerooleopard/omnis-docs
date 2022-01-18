@@ -1,7 +1,8 @@
 var configData = {
     algolia: {
-        apiKey: '0b253efcebcd8bbe0138d9f8c59af708',
-        indexName: 'omnis'
+        apiKey: '71696a1fd0e93dfdde9f51886d0ec49a',
+        indexName: 'omnis',
+        appId: 'U2860DXN9G',
     }
 };
 

@@ -9,17 +9,17 @@ module.exports = (options, ctx) => {
     base: '/omnis-docs/',
     dest: 'docs',
     head: [
-      ['link', { rel: 'icon', href: './images/logos/favicon_omnis.png' }]
+      ['link', { rel: 'icon', href: './images/logos/omnis_logo_favicon.png' }]
     ],
     themeConfig: {
       algolia: configData.algolia,
-      logo: '/images/logos/logo-dark.png',
+      logo: '/images/logos/omnis_logo_dark.png',
       nav: [
           { text: 'Home', link: '/' },
           { text: 'Changelog', link: '/#changelog' },
           { text: 'Docs', link: '/docs/' },
           { text: 'Theme Demo', link: 'https://demo.loprd.pl/omnis/' },
-          { text: 'Buy Theme', link: 'https://themeforest.net/user/leopardthemes/portfolio' }
+          { text: 'Buy Theme', link: 'https://themeforest.net/item/omnis-nextgen-multipurpose-wordpress-theme/30042696' }
       ],
       sidebar: {
           '/docs/': getGuideSidebar('General', 'Theme Features', 'Page Creation', 'Omnis Plugins'),
