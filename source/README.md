@@ -15,7 +15,6 @@ actionLinkBuy: https://themeforest.net/user/leopardthemes/portfolio
 ## **v1.0.3**
 
 ``` ini
-
 # UPDATE
 - Omnis Core Update to version 1.2
 - WPBakery Page Builder for WordPress to version 6.10.0
@@ -29,7 +28,6 @@ actionLinkBuy: https://themeforest.net/user/leopardthemes/portfolio
 ## **v1.0.2**
 
 ``` ini
-
 # UPDATE
 - Updated child theme 
 - Omnis Core Update to version 1.1 
