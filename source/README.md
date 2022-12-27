@@ -12,6 +12,19 @@ actionLinkBuy: https://themeforest.net/user/leopardthemes/portfolio
 ###### Theme Changelog
 ---
 
+## **v1.0.4** @@ TO RELEASE
+
+``` ini
+; # UPDATE
+; - Omnis Core Update to version 1.2
+; - WPBakery Page Builder for WordPress to version 6.10.0
+; - Slider Revolution Responsive WordPress Plugin to version 6.6.8
+; - WooCommerce compatibility update to version 7.1.1
+
+# FIX
+- Removed WPBakery fixPContent filter that violated structure of .rows and .sections
+```
+
 ## **v1.0.3**
 
 ``` ini
